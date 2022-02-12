@@ -39,5 +39,7 @@ function removeLastCat(){
 function removeFirstCat() {
     let newArray = cats.slice();
     newArray.shift();
+    
     return newArray
+
 }
